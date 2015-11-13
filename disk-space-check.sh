@@ -1,9 +1,15 @@
 #!/bin/bash
 
 # Some variables
+# E-mail for recieving alerts
+# EMAIL="user@domain.com test@domain.com"
 EMAIL=""
+# Name of this server - just to make it different from other e-mails, not really needed
+# SERVER="server1.domain.com"
 SERVER=""
+# E-mail used to send alerts. Use address, which is allowed do send mail from your server (remember about SPF and other things)
 FROM=""
+# Send alert only when usage is higher, then LIMIT in percent
 LIMIT=85
 
 # Some constants
